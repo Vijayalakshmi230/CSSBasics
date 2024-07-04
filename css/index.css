@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+li{
+    display: inline;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+li a:hover{
+    color: red;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: skyblue;
+    padding: 10px;
+}
+button :hover{
+    color:red
+}
+input{
+    
+    padding: 10px;
+    border-radius: 10px;
+}
