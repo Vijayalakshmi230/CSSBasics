@@ -66,17 +66,23 @@ li a:hover{
 }
 .flex-container{
     display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    padding: 70px;
 }
 img{
-    border: 1px soild white;
+    border: 10px solid rgb(250, 250, 250);
     border-radius: 260px;
 }
 .box{
-    margin:10px;
+    margin:20px;
+    /* border: 1px solid rgb(250, 250, 250); */
 }
-strong{
-    
-    color: red;
+p{ 
+    text-align: center;
+    color:red;
+    font-size: 20px;
 }
 footer{
     margin-top: auto;
