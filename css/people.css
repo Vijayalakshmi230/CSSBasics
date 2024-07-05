@@ -1,35 +1,90 @@
 *{
     box-sizing: border-box;
-    background-color: grey;
+    background-color: rgb(8, 8, 8);
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 10px;
+    justify-content: space-around;
+    padding:25px;
+}
+h2{
+    color: rgb(131, 237, 237);
+}
+li {
+    display: inline;
     padding: 10px;
 }
-li{
-    display: inline;
-    justify-content: space-around;
-    padding: 15px;
-    
+li a{
+    text-decoration: none;
+    color:rgb(245, 239, 239);
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 li a:hover{
+    color:white;
+    background-color: rgb(199, 1, 1);
+}
+.left{
+    position: relative;
+    width: 300px;
+}
+.left input{
+    width: 100%;
+    padding: 10px 40px 10px 10px; 
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border: none;
+    background-color: rgb(137, 135, 135);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    background: none;
+    border: none;
+    color: #f9f5f5;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(11, 183, 240);
+}
+.search:hover{
+    color:white;
+    background-color: rgb(199, 1, 1);
+}
+.flex-container{
+    display: flex;
+}
+img{
+    border: 1px soild white;
+    border-radius: 260px;
+}
+.box{
+    margin:10px;
+}
+strong{
+    
     color: red;
 }
-button {
-    border: none;
-    border-radius: 10px;
-    background-color: skyblue;
-    padding: 10px;
+footer{
+    margin-top: auto;
 }
-button :hover{
-    color:red
-}
-input{
-    
-    padding: 10px;
-    border-radius: 10px;
+.boder-line{
+    color: #f9f5f5;
+    background-color: red;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
 }
